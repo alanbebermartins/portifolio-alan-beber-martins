@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: 'Play', sans-serif;
+    --cor-fundo: #03001C;
+    --cor-botao: #301E67;
+    --cor-texto: white;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.menu{
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: var(--cor-fundo);
+}
+
+.menu-titulo{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.menu-lista, .menu-titulo{
+    list-style-type: none;
+    font-size: var(--font-size-principal);
+}
+
+.menu-lista{
+    font-size: 1.25rem;
+    display: none;
+    font-weight: 400;
+}
+
+.menu-lista-link{
+    text-decoration: none;
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
+
+@media screen and (min-width: 360px){}
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
+
+@media screen and (min-width: 768px){}
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+    .menu-lista{
+        display: block;
+    }
+}
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
+
+@media screen and (min-width: 1280px){}
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1366PX --------------------------------*/
+@media screen and (min-width: 1366px){}
