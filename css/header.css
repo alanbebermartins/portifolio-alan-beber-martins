@@ -7,12 +7,15 @@
 
 :root{
     --fonte-principal: 'Play', sans-serif;
-    --font-size-principal: 1.25rem;
-    --cor-menu-principal: ;
+    --cor-fundo: #03001C;
+    --cor-botao: #301E67;
+    --cor-texto: white;
 }
 
 body{
     font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
 }
 
 .menu{
@@ -20,9 +23,12 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    color: var(--cor-fundo);
 }
 
 .menu-titulo{
+    font-size: 2rem;
     font-weight: 600;
 }
 
