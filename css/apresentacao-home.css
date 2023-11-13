@@ -1,12 +1,47 @@
 .apresentacao-principal{
-    padding: 1rem;
+    padding: 0 0.5rem;
     text-align: center;
 }
 
-.apresentacao{
+.apresentacao-principal{
     text-align: center;
-    border: 1px solid greenyellow;
 }
 
+.apresentacao-nome{
+    margin-top: 5.5rem;
+    font-size: 2rem;
+}
 
+.apresentacao-profissao{
+    margin-top: 5rem;
+    font-size: 3rem;
+}
 
+.apresentacao-informacao-adicional{
+    margin: 5.5rem 0;
+    font-size: 2rem;
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
+
+@media screen and (min-width: 768px){
+
+    .apresentacao-profissao{
+        font-size: 4rem;
+    }
+
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+
+    .apresentacao-profissao{
+        font-size: 4rem;
+    }
+
+    .apresentacao-nome, .apresentacao-profissao, .apresentacao-informacao-adicional{
+        margin-top: 7rem;
+    }
+
+}

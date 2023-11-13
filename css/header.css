@@ -28,7 +28,7 @@ body{
 }
 
 .menu-titulo{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -38,6 +38,7 @@ body{
 }
 
 .menu-lista{
+    font-size: 1.25rem;
     display: none;
     font-weight: 400;
 }
