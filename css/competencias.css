@@ -47,6 +47,27 @@ body{
     text-decoration: none;
 }
 
+.apresentacao-competencias{
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.competencias-lista{
+    text-align: center;
+    list-style-type: none;
+}
+
+.competencias-lista-linguagem{
+    margin: 2rem 0;
+}
+
 /*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
 
 @media screen and (min-width: 360px){}
