@@ -55,7 +55,7 @@ body{
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 2rem;
 }
 
@@ -66,6 +66,11 @@ h3 {
 
 .competencias-lista-linguagem{
     margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.logo-img{
+    width: 24px;
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
