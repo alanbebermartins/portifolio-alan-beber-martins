@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: 'Play', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+}
+
+.menu{
+    height: 3rem;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-lista, .menu-titulo{
+    list-style-type: none;
+}
+
+.menu-lista-link{
+    text-decoration: none;
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
+
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1366PX --------------------------------*/
+
+
+
+
