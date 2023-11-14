@@ -76,29 +76,20 @@ h3 {
     width: 24px;
 }
 
-/*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
-
-@media screen and (min-width: 360px){}
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
-
-@media screen and (min-width: 768px){}
-
-
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
 @media screen and (min-width: 1024px){
     .menu-lista{
         display: block;
     }
+
+    h3 {
+        font-size: 4rem;
+        margin: 4rem;
+    }
+
+    .competencias-lista-linguagem{
+        font-size: 2.5rem;
+        margin: 3.5rem 0;
+    }
 }
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
-
-@media screen and (min-width: 1280px){}
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 1366PX --------------------------------*/
-@media screen and (min-width: 1366px){}

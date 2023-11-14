@@ -47,16 +47,6 @@ body{
     text-decoration: none;
 }
 
-/*-------------------------------- MEDIA QUERIES PARA TELA 360PX --------------------------------*/
-
-@media screen and (min-width: 360px){}
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
-
-@media screen and (min-width: 768px){}
-
-
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
 @media screen and (min-width: 1024px){
@@ -64,16 +54,6 @@ body{
         display: block;
     }
 }
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
-
-@media screen and (min-width: 1280px){}
-
-
-/*-------------------------------- MEDIA QUERIES PARA TELA 1366PX --------------------------------*/
-@media screen and (min-width: 1366px){}
-
 
 
 
