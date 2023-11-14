@@ -47,3 +47,41 @@
 .experiencia-atividades{
     font-size: 1.25rem;
 }
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 620PX --------------------------------*/
+
+@media screen and (min-width: 620px){
+    .apresentacao-principal{
+        padding: 2rem 1rem;
+    }
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
+
+@media screen and (min-width: 768px){
+    .apresentacao-principal{
+        padding: 2rem 1.5rem;
+    }
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+    
+    .apresentacao-experiancia{
+        font-size: 2.5rem;
+    }
+
+    .apresentacao-principal{
+        padding: 2rem 2.5rem;
+    }
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
+
+@media screen and (min-width: 1280px){
+    
+    .apresentacao-principal{
+        padding: 2rem 3.5rem;
+    }
+}
