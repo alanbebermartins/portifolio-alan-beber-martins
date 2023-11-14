@@ -19,7 +19,9 @@
     margin: 1rem;
 }
 
-.dado_pessoal__nome, .dado_pessoal__contato, .dado_pessoal__email{
+.dado_pessoal__nome, 
+.dado_pessoal__contato, 
+.dado_pessoal__email{
     width: 290px;
     height: 30px;
     border-radius: 15px;
@@ -41,7 +43,9 @@
     border: none;
 }
 
-.dado_pessoal__nome::placeholder, .dado_pessoal__contato::placeholder, .dado_pessoal__email::placeholder{
+.dado_pessoal__nome::placeholder, 
+.dado_pessoal__contato::placeholder, 
+.dado_pessoal__email::placeholder{
     padding-left: 16px;
     align-items: center;
 }
@@ -50,4 +54,39 @@
     padding: 12px 0 0 12px;
 }
 
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
 
+@media screen and (min-width: 768px){
+    .principal__titulo{
+        margin: 2.5rem;
+    }
+
+    .apresentacao-contato{
+        font-size: 1.5rem;
+    }
+
+    .dado__nome, 
+    .dado__contato, 
+    .dado__email, 
+    .dado__menssagem{
+        font-size: 18px;
+    }
+
+    .dado_pessoal__nome, 
+    .dado_pessoal__contato, 
+    .dado_pessoal__email{
+        width: 400px;
+    }
+
+    .dado_pessoal__mensagem{
+        margin: 0;
+        width: 400px;
+        min-height: 100px;
+    }
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+
+}
