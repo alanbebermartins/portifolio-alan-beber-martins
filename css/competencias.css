@@ -67,6 +67,9 @@ h3 {
 .competencias-lista-linguagem{
     margin: 2rem 0;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-img{
