@@ -3,27 +3,51 @@
     font-size: 2.5rem;
 }
 
+.sobre-mim-nome, .sobre-mim-texto{
+    margin-top: 1rem;
+}
+
+.sobre-mim-box{
+    padding: 0.5rem;
+}
+
+.sobre-mim-texto{
+    text-align:justify;
+    text-indent: 2.5rem;
+}
+
 /*-------------------------------- MEDIA QUERIES PARA TELA 620PX --------------------------------*/
 
 @media screen and (min-width: 620px){
-
+    .sobre-mim-box{
+        padding: 1.25rem;
+    }
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
 
 @media screen and (min-width: 768px){
+    .sobre-mim-box{
+        padding: 1.5rem;
+    }
 
+    .sobre-mim-nome{
+        font-size: 1.5rem;
+    }
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
 @media screen and (min-width: 1024px){
-    
+    .sobre-mim-box{
+        padding: 2.5rem;
+    }
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
 
 @media screen and (min-width: 1280px){
-    
-
+    .sobre-mim-box{
+        padding: 4rem;
+    }
 }
