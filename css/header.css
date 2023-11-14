@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -7,6 +8,7 @@
 
 :root{
     --fonte-principal: 'Play', sans-serif;
+    --fonte-logo: 'Orbitron', sans-serif;
     --cor-fundo: #03001C;
     --cor-botao: #301E67;
     --cor-texto: white;
@@ -35,9 +37,16 @@ body{
     color: var(--cor-fundo);
 }
 
-.menu-titulo{
-    font-size: 3rem;
+.menu-lista-link{
+    text-decoration: none;
+    color: var(--cor-fundo);
+    font-size: 20px;
     font-weight: 600;
+}
+
+.menu-titulo{
+    font-family: var(--fonte-logo);
+    font-size: 3rem;
 }
 
 .menu-lista, .menu-titulo{
@@ -51,9 +60,7 @@ body{
     font-weight: 400;
 }
 
-.menu-lista-link{
-    text-decoration: none;
-}
+
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
