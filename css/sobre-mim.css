@@ -1,0 +1,29 @@
+.apresentacao-sobre-min{
+    margin-top: 5.5rem;
+    font-size: 2rem;
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 620PX --------------------------------*/
+
+@media screen and (min-width: 620px){
+
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
+
+@media screen and (min-width: 768px){
+
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+    
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
+
+@media screen and (min-width: 1280px){
+    
+
+}
