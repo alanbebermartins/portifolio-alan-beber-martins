@@ -21,3 +21,11 @@
     margin: 5.5rem 0;
     font-size: 2rem;
 }
+
+.experiencia{
+    padding: 1rem;
+}
+
+.experiencia-empresa, .experiencia-periodo{
+    margin-top: 1rem 0;
+}
