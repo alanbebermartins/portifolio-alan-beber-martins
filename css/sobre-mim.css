@@ -12,6 +12,7 @@
 }
 
 .sobre-mim-texto{
+    font-size: 16px;
     text-align:justify;
     text-indent: 2.5rem;
 }
@@ -65,6 +66,19 @@
     .sobre-mim-box{
         padding: 2.5rem;
     }
+
+    .sobre-mim-texto{
+        font-size: 20px;
+    }
+
+    .sobre-mim-nome{
+        font-size: 24px;
+    }
+
+    .apresentacao-sobre-min{
+        font-size: 48px;
+    }
+    
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
