@@ -3,7 +3,7 @@
 }
 
 .principal__titulo{
-    margin: 1.5rem;
+    margin: 4rem 0 2rem 0;
     font-weight: 400;
 }
 
@@ -86,7 +86,7 @@
 
 @media screen and (min-width: 768px){
     .principal__titulo{
-        margin: 2.5rem;
+        margin: 5rem 0 2rem 0;
     }
 
     .apresentacao-contato{
