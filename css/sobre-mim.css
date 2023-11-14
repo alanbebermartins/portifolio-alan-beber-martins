@@ -16,6 +16,29 @@
     text-indent: 2.5rem;
 }
 
+.botao-rede-social{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-evenly;
+}
+
+.sobre-mim-rede-social{
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    color: #03001C;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.icone-botao{
+    width: 24px;
+    margin-right: 12px;
+}
+
+
 /*-------------------------------- MEDIA QUERIES PARA TELA 620PX --------------------------------*/
 
 @media screen and (min-width: 620px){
