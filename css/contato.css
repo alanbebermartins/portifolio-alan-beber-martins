@@ -1,4 +1,53 @@
-.apresentacao-contato{
-    margin-top: 4rem;
-    font-size: 2.5rem;
+.principal__formulario{
+    justify-content: center;
 }
+
+.principal__titulo{
+    margin: 1.5rem;
+    font-weight: 400;
+}
+
+.apresentacao-contato{
+    font-size: 1.25rem;
+}
+
+.campo__dado__pessoal{
+    display: block;
+}
+
+.campo__dado__pessoal{
+    margin: 1rem;
+}
+
+.dado_pessoal__nome, .dado_pessoal__contato, .dado_pessoal__email{
+    width: 290px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.dado_pessoal__mensagem{
+    width: 290px;
+    min-height: 100px;
+    border: none;
+}
+
+.botao-submit{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+    padding: 8px;
+    border-radius: 18px;
+    border: none;
+}
+
+.dado_pessoal__nome::placeholder, .dado_pessoal__contato::placeholder, .dado_pessoal__email::placeholder{
+    padding-left: 16px;
+    align-items: center;
+}
+
+.dado_pessoal__mensagem::placeholder{
+    padding: 12px 0 0 12px;
+}
+
+
