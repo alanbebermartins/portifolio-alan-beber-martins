@@ -26,6 +26,24 @@
     padding: 1rem;
 }
 
-.experiencia-empresa, .experiencia-periodo{
-    margin-top: 1rem 0;
+.experiencia-empresa, 
+.experiencia-periodo, 
+.experiencia-cargo, 
+.experiencia-atividades{
+    margin-top: 1rem;
+}
+
+.experiencia-atividades{
+    text-align:justify;
+    text-indent: 2.5rem;
+}
+
+.experiencia-empresa{
+    font-size: 1.5rem;
+}
+
+.experiencia-periodo, 
+.experiencia-cargo, 
+.experiencia-atividades{
+    font-size: 1.25rem;
 }
