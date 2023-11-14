@@ -24,28 +24,37 @@
     <main class="apresentacao-principal">
         <h2 class="principal__titulo">Dados para contato</h2>
         <p class="apresentacao-contato">Dados pessoais</p>
+        <div class="contato__formulario">
+            <form class="principal__formulario" id="formulario" target="_blank">
+                <div class="formulario__campo">
+                    <label class="campo__dado__pessoal dado__nome" for="nome">Nome Completo</label>
+                    <input class="dado_pessoal__nome" name="nome" id="nome" class="campo__escrita" placeholder="Digite seu nome" required />
+                </div>
 
-        <form class="principal__formulario" id="formulario" target="_blank">
-            <div class="formulario__campo">
-                <label class="campo__dado__pessoal dado__nome" for="nome">Nome Completo</label>
-                <input class="dado_pessoal__nome" name="nome" id="nome" class="campo__escrita" placeholder="Digite seu nome" required />
+                <div class="formulario__campo">
+                    <label class="campo__dado__pessoal dado__contato" for="telefone">Contato</label>
+                    <input class="dado_pessoal__contato" name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
+                        required />
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__dado__pessoal dado__email" for="email">E-mail</label>
+                    <input class="dado_pessoal__email" name="email" id="email" type="email" class="campo__escrita" required placeholder="Digite seu email"/>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__dado__pessoal dado__mensagem" for="mensagem">Mensagem</label>
+                    <textarea class="dado_pessoal__mensagem" name="mensagem" id="mensagem" type="mensagem" class="campo__escrita" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button class="botao-submit" type="submit" for="submit" id="submit" name="submit">Enviar</button>
+            </form>
+            <div>
+                <ul>
+                    <li class="meio__contato"><img class="icone-botao" src="/imagens/logo-telefone.svg" alt="logo-telefone">(47) 99106-5331</li></p>
+                    <li class="meio__contato"><img class="icone-botao" src="/imagens/logo-email.svg" alt="logo-email">abebermartins@gmail.com</li>
+                    <li class="meio__contato"><img class="icone-botao" src="/imagens/logo-linkedin.svg" alt="logo-linkedin">Linkedin Alan Beber Martins</li>
+                </ul>
             </div>
+        </div>
 
-            <div class="formulario__campo">
-                <label class="campo__dado__pessoal dado__contato" for="telefone">Contato</label>
-                <input class="dado_pessoal__contato" name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
-                    required />
-            </div>
-            <div class="formulario__campo">
-                <label class="campo__dado__pessoal dado__email" for="email">E-mail</label>
-                <input class="dado_pessoal__email" name="email" id="email" type="email" class="campo__escrita" required placeholder="Digite seu email"/>
-            </div>
-            <div class="formulario__campo">
-                <label class="campo__dado__pessoal dado__mensagem" for="mensagem">Mensagem</label>
-                <textarea class="dado_pessoal__mensagem" name="mensagem" id="mensagem" type="mensagem" class="campo__escrita" placeholder="Digite sua mensagem"></textarea>
-            </div>
-            <button class="botao-submit" type="submit" for="submit" id="submit" name="submit">Enviar</button>
-        </form>
     </main>
 </body>
 </html>

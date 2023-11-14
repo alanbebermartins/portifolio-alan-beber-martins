@@ -54,6 +54,27 @@
     padding: 12px 0 0 12px;
 }
 
+.meio__contato{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-botao{
+    width: 24px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.contato{
+    background-color: white;
+}
+
+
+
 /*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
 
 @media screen and (min-width: 768px){
@@ -85,8 +106,18 @@
     }
 }
 
-/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1280px){
+    .contato__formulario{
+        display: flex;
+        gap: 150px;
+        padding: 24px 0;
+        justify-content: center;
+    }
 
+    .meio__contato{
+        align-items: center;
+        justify-content: left;
+    }
 }
