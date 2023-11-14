@@ -37,8 +37,8 @@
 .botao-submit{
     font-size: 16px;
     font-weight: 600;
-    margin: 16px 0;
-    padding: 8px;
+    margin: 36px 0;
+    padding: 10px 15px;
     border-radius: 18px;
     border: none;
 }
@@ -73,7 +73,14 @@
     background-color: white;
 }
 
+.contato__link{
+    display: flex;
+}
 
+.social-links-link{
+    text-decoration: none;
+    color: white;
+}
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/
 
@@ -111,7 +118,7 @@
 @media screen and (min-width: 1280px){
     .contato__formulario{
         display: flex;
-        gap: 150px;
+        gap: 100px;
         padding: 24px 0;
         justify-content: center;
     }
