@@ -10,9 +10,15 @@
     justify-content: space-between;
 }
 
+#box01{
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho_menu-hamburguer{
     width: 24px;
     height: 24px;
+    background-repeat: no-repeat;
 }
 
 .logo-menu-azul-branco{
