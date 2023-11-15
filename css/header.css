@@ -1,0 +1,32 @@
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho_menu-hamburguer{
+    width: 24px;
+    height: 24px;
+}
+
+.logo-menu-azul-branco{
+    margin-left: 10px;
+}
+
+.logomarca{
+    color: #03001C;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+
+
+
+
+
