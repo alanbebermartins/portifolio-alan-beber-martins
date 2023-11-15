@@ -79,7 +79,6 @@
         margin-right: 10px;
    }
 
-   /* teste */
    .cabecalho_menu-hamburguer{
     display: none;
     }
@@ -105,15 +104,16 @@
         text-decoration: none;
         font-size: 16px;
     }
-
 }
+
+
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
 @media screen and (min-width: 1024px){
     
     .cabecalho{
-        height: 51px;
+        height: 45px;
     }
 
 }
