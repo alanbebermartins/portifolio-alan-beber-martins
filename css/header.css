@@ -13,6 +13,10 @@
     position: relative;
 }
 
+.opcoes{
+    display: none;
+}
+
 #box01{
     display: flex;
     align-items: center;
@@ -50,7 +54,7 @@
 }
 
 .lista_menu_item{
-    padding: 20px;
+    padding: 18px;
     background-color: white;
     color: #03001C;
     
@@ -58,13 +62,22 @@
 
 .lista_menu_link{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     font-family: var(--fonte-principal);
 }
 
 .container_botao{
     display: none;
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 960PX --------------------------------*/
+
+@media screen and (min-width: 960px){
+    
+   .container{
+        margin-right: 10px;
+   }
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
@@ -74,10 +87,55 @@
     .cabecalho{
         height: 51px;
     }
+
+    .cabecalho_menu-hamburguer{
+        display: none;
+    }
     
     .logo-menu-azul-branco{
         display: none;
     }
 
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes_item{
+        padding: 0 32px;
+        text-transform: uppercase;
+        list-style-type: none;
+        text-decoration: none;
+        color: #03001C;
+        font-weight: 600;
+    }
+
+    .opcoes_link{
+        text-decoration: none;
+        font-size: 16px;
+    }
+
 }
 
+/*-------------------------------- MEDIA QUERIES PARA TELA 1280PX --------------------------------*/
+
+@media screen and (min-width: 1280px){
+    
+    .opcoes_item{
+        padding: 0 56px;
+    }
+
+    .opcoes_link{
+        font-size: 20px;
+    }
+
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1440PX --------------------------------*/
+
+@media screen and (min-width: 1440px){
+    
+    .opcoes_item{
+        padding: 0 64px;
+    }
+
+}
