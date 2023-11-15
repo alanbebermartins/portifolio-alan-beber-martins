@@ -1,13 +1,16 @@
+@import url("/css/reset.css");
+
 .cabecalho{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
-    padding: 10px 0;
+    padding: 10px 0 10px 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 #box01{
@@ -16,9 +19,12 @@
 }
 
 .cabecalho_menu-hamburguer{
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
+    background-image: url(../imagens/logo-menu-branco.svg);
+    display: inline-block;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .logo-menu-azul-branco{
@@ -29,10 +35,37 @@
     color: #03001C;
     margin-right: 20px;
     font-size: 26px;
+    font-family: var(--fonte-logo);
+    font-weight: 600;
 }
 
+.lista_menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
 
+.container_botao:checked ~ .lista_menu{
+    display: block;
+}
 
+.lista_menu_item{
+    padding: 20px;
+    background-color: white;
+    color: #03001C;
+    
+}
+
+.lista_menu_link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.container_botao{
+    display: none;
+}
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
 
