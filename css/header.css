@@ -78,20 +78,12 @@
    .container{
         margin-right: 10px;
    }
-}
 
-/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
-
-@media screen and (min-width: 1024px){
-    
-    .cabecalho{
-        height: 51px;
+   /* teste */
+   .cabecalho_menu-hamburguer{
+    display: none;
     }
 
-    .cabecalho_menu-hamburguer{
-        display: none;
-    }
-    
     .logo-menu-azul-branco{
         display: none;
     }
@@ -112,6 +104,16 @@
     .opcoes_link{
         text-decoration: none;
         font-size: 16px;
+    }
+
+}
+
+/*-------------------------------- MEDIA QUERIES PARA TELA 1024PX --------------------------------*/
+
+@media screen and (min-width: 1024px){
+    
+    .cabecalho{
+        height: 51px;
     }
 
 }
