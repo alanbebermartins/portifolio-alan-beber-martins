@@ -30,6 +30,7 @@
     height: 30px;
     border-radius: 15px;
     border: none;
+    padding-inline: 10px;
 }
 
 .dado_pessoal__mensagem{
