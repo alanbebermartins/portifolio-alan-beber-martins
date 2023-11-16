@@ -1,3 +1,7 @@
+.mensagem_erro{
+    display: none;
+}
+
 .principal__formulario{
     justify-content: center;
 }

@@ -1,23 +1,7 @@
-import validaNome from "./valida-nome.js";
-
+const form = document.getElementById('formulario');
 const camposDoFormulario = document.querySelectorAll("[required]");
-
-camposDoFormulario.forEach((campo) => {
-    campo.addEventListener("blur", () => verificaCampo(campo));
-    // campo.addEventListener("invalid", evento => event.preventDefault());
-})
-
-function verificaCampo(campo){
-    if(campo.name == "nome" && campo.value.length >= 3){
-        validaNome(campo);
-    }
-
-}
-
-
-
-
-
+const spans = document.querySelectorAll('.mensagem_erro');
+const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
 
 
