@@ -42,7 +42,7 @@ function removeError(index){
     inputTelefone.style.border = '';
     spans[index].style.display = 'none';
 
-    inputEmail.style.border = '';
+    inputEmail.style.border = ''; 
     spans[index].style.display = 'none';
 
     inputMensagem.style.border = '';
