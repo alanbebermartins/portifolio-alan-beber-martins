@@ -44,18 +44,18 @@
         <h2 class="principal__titulo">Dados para contato</h2>
         <p class="apresentacao-contato">Dados pessoais</p>
         <div class="contato__formulario">
-            <form class="principal__formulario" id="formulario" target="_blank" name="formulario_contato">
+            <form class="principal__formulario" id="formulario" target="_blank" name="formulario_contato" novalidate>
                 <div class="formulario__campo">
                     <label class="campo__dado__pessoal dado__nome" for="nome">Nome Completo</label>
                     <input class="dado_pessoal__nome" name="nome" id="nome" class="campo__escrita" placeholder="Digite seu nome" type="text" minlength="3" required/>
-                    <span class="mensagem_erro">Nome deve conter no mínimo 3 caracteres</span>
+                    <span class="mensagem_erro">Digite o seu nome completo</span>
                 </div>
 
                 <div class="formulario__campo">
                     <label class="campo__dado__pessoal dado__contato" for="telefone">Contato Telefone</label>
                     <input class="dado_pessoal__contato" name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
                         required minlength="9" maxlength="15"/>
-                        <span class="mensagem_erro">Digite apenas números</span>
+                        <span class="mensagem_erro">Número completo do telefone, apenas números</span>
                 </div>
                 <div class="formulario__campo">
                     <label class="campo__dado__pessoal dado__email" for="email">E-mail</label>
@@ -79,6 +79,6 @@
         </div>
     </main>
     <video class="bg-video" type="video/mp4" src="./video/video_teste.mp4" autoplay loop muted></video>
-    <script src="js/script.js" type="module"></script>
+    <script src="/js/script.js" type="module"></script>
 </body>
 </html>
