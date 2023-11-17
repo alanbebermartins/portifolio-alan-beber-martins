@@ -9,13 +9,24 @@
 :root{
     --fonte-principal: 'Play', sans-serif;
     --fonte-logo: 'Orbitron', sans-serif;
-    --cor-fundo: #03001C;
-    --cor-botao: #301E67;
+    /* --cor-fundo: #03001C; */
+    /* --cor-botao: #301E67; */
+    --cor-texto-menu: black;
     --cor-texto: white;
 }
 
 body{
     font-family: var(--fonte-principal);
-    background-color: var(--cor-fundo);
+    /* background-color: var(--cor-fundo); */
     color: var(--cor-texto);
+}
+
+.bg-video{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

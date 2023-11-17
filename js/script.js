@@ -1,16 +1,17 @@
 const form = document.getElementById("#formulario");
-const inputNome = document.getElementsByClassName(".dado__nome");
-const inputTelefone = document.getElementsByClassName(".dado__contato");
-const inputEmail = document.getElementsByClassName(".dado__email");
-const inputTextArea = document.getElementsByClassName(".dado__mensagem");
+const inputNome = document.getElementsByClassName(".dado_pessoal__nome");
+const inputTelefone = document.getElementsByClassName(".dado_pessoal__contato");
+const inputEmail = document.getElementsByClassName(".dado_pessoal__email");
+const inputTextArea = document.getElementsByClassName(".dado_pessoal__mensagem");
 
 form.addEventListener("submit", (event) => {
 
     event.preventDefault();
+    console.log('Deu certo')
 
     // verifica se o nome está vazio
 
-    if(inputNome.value === ""){
+    if(inputNome.value <= 3){
         alert("Por favor, preencha o seu nome completo!");
         return;
     }

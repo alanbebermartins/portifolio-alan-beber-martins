@@ -36,7 +36,7 @@
 }
 
 .logomarca{
-    color: #03001C;
+    color: black;
     margin-right: 20px;
     font-size: 26px;
     font-family: var(--fonte-logo);
@@ -56,7 +56,7 @@
 .lista_menu_item{
     padding: 18px;
     background-color: white;
-    color: #03001C;
+    color: black;
     
 }
 
@@ -65,6 +65,11 @@
     font-size: 20px;
     font-weight: 600;
     font-family: var(--fonte-principal);
+    color: var(--cor-texto-menu);
+}
+
+.opcoes_link{
+    color: var(--cor-texto-menu);
 }
 
 .container_botao{
@@ -80,7 +85,7 @@
    }
 
    .cabecalho_menu-hamburguer{
-    display: none;
+        display: none;
     }
 
     .logo-menu-azul-branco{
@@ -96,7 +101,7 @@
         text-transform: uppercase;
         list-style-type: none;
         text-decoration: none;
-        color: #03001C;
+        color: black;
         font-weight: 600;
     }
 

@@ -7,14 +7,14 @@
 
 :root{
     --fonte-principal: 'Play', sans-serif;
-    --cor-fundo: #03001C;
-    --cor-botao: #301E67;
+    /* --cor-fundo: #03001C; */
+    /* --cor-botao: #301E67; */
     --cor-texto: white;
 }
 
 body{
     font-family: var(--fonte-principal);
-    background-color: var(--cor-fundo);
+    /* background-color: var(--cor-fundo); */
     color: var(--cor-texto);
 }
 
