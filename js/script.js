@@ -19,33 +19,34 @@ inputMensagem.addEventListener('blur', validacaoMensagem);
 
 function setError(index){
 
+    inputNome.style.border = '3px solid #E63636';
+
+    inputTelefone.style.border = '3px solid #E63636';
+   
+    inputEmail.style.border = '3px solid #E63636';
+ 
+    inputMensagem.style.border = '3px solid #E63636';
+
     spans[index].style.display = 'block';
     spans[index].style.padding = '5px';
     spans[index].style.color = '#E63636';
     spans[index].style.fontWeight = 'bold';
 
-    inputNome.style.border = '3px solid #E63636';
-    
-    inputTelefone.style.border = '3px solid #E63636';
-
-    inputEmail.style.border = '3px solid #E63636';
-
-    inputMensagem.style.border = '3px solid #E63636';
 }
 
 function removeError(index){
 
     inputNome.style.border = '';
-    spans[0].style.display = 'none';
+    spans[index].style.display = 'none';
 
     inputTelefone.style.border = '';
-    spans[1].style.display = 'none';
+    spans[index].style.display = 'none';
 
     inputEmail.style.border = '';
-    spans[2].style.display = 'none';
+    spans[index].style.display = 'none';
 
     inputMensagem.style.border = '';
-    spans[3].style.display = 'none';
+    spans[index].style.display = 'none';
 
 }
 
