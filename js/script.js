@@ -1,4 +1,4 @@
-const form = document.getElementById("#formulario");
+const form = document.getElementById('formulario_para_contato');
 const spans = document.querySelectorAll('.mensagem_erro');
 const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
@@ -14,8 +14,9 @@ inputEmail.addEventListener('blur', validacaoEmail);
 const inputMensagem = document.getElementById('mensagem');
 inputMensagem.addEventListener('blur', validacaoMensagem);
 
-
 // VALIDACAO CAMPO NOME
+
+/*
 
 function setError(index){
 
@@ -34,6 +35,22 @@ function setError(index){
 
 }
 
+REFATORADA PELO CODIGO ABAIXO
+
+*/ 
+
+function setError(index) {
+    const inputFields = [inputNome, inputTelefone, inputEmail, inputMensagem]
+  
+    inputFields[index].style.border = '3px solid #E63636'
+    spans[index].style.display = 'block'
+    spans[index].style.padding = '5px'
+    spans[index].style.color = '#E63636'
+    spans[index].style.fontWeight = 'bold'
+}
+
+/*
+
 function removeError(index){
 
     inputNome.style.border = '';
@@ -49,6 +66,17 @@ function removeError(index){
     spans[index].style.display = 'none';
 
 }
+
+REFATORADA PELO CODIGO ABAIXO
+
+*/
+
+function removeError(index) {
+    const inputFields = [inputNome, inputTelefone, inputEmail, inputMensagem]
+  
+    inputFields[index].classList.remove('error')
+    spans[index].style.display = 'none'
+  }
 
 // VALIDACAO CAMPO NOME
 
@@ -96,6 +124,28 @@ function validacaoMensagem(){
         removeError(3)
     }
 }
+
+
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    
+    validacaoNome();
+    validacaoTelefone();
+    validacaoEmail();
+    validacaoMensagem()
+
+    alert('Formulario enviado com sucesso!')
+
+    window.location.reload();
+
+})
+
+
+
+
+
+
 
 
 

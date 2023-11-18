@@ -37,6 +37,7 @@
     width: 290px;
     min-height: 100px;
     border: none;
+    resize: vertical;
 }
 
 .botao-submit{
@@ -85,6 +86,11 @@
 .social-links-link{
     text-decoration: none;
     color: white;
+}
+
+#mensagem_validacao_formulario{
+    font-size: 25px;
+    color: greenyellow;
 }
 
 /*-------------------------------- MEDIA QUERIES PARA TELA 768PX --------------------------------*/

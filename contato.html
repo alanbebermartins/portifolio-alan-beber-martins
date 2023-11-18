@@ -44,7 +44,7 @@
         <h2 class="principal__titulo">Dados para contato</h2>
         <p class="apresentacao-contato">Dados pessoais</p>
         <div class="contato__formulario">
-            <form class="principal__formulario" id="formulario" target="_blank" name="formulario_contato" novalidate>
+            <form class="principal__formulario" id="formulario_para_contato" target="_blank" name="formulario_contato" novalidate>
                 <div class="formulario__campo">
                     <label class="campo__dado__pessoal dado__nome" for="nome">Nome Completo</label>
                     <input class="dado_pessoal__nome" name="nome" id="nome" class="campo__escrita" placeholder="Digite seu nome" type="text" minlength="3" required/>
@@ -67,7 +67,8 @@
                     <textarea class="dado_pessoal__mensagem" name="mensagem" id="mensagem" type="text" class="campo__escrita" placeholder="Digite sua mensagem" minlength="20" required></textarea>
                     <span class="mensagem_erro">A mensagem deve ter no mínimo 20 caracteres</span>
                 </div>
-                <button class="botao-submit" type="submit" for="submit" id="submit" name="submit">Enviar</button>
+                <button class="botao-submit" type="submit" for="submit" id="submit-form" name="submit">Enviar</button>
+                <div id="mensagem_validacao_formulario"></div>
             </form>
             <div class="social-links">
                 <ul>
